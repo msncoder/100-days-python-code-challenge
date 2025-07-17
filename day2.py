@@ -134,14 +134,16 @@
 
 # Check if a Number is Prime
 
-inp = int(input("Enter a number"))
+# inp = int(input("Enter a number"))
 
-if inp <= 1:
-    print("not a prime number")
-else:
-    for i in range(2, inp):
-        if (inp % i) == 0:
-            print("not a prime number")
-            break
-    else:
-        print("its a prime number")
+# if inp <= 1:
+#     print("not a prime number")
+# else:
+#     for i in range(2, inp):
+#         if (inp % i) == 0:
+#             print("not a prime number")
+#             break
+#     else:
+#         print("its a prime number")
+
+
