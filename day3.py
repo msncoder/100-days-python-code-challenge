@@ -102,3 +102,52 @@
 # print(count)
 
 
+# Write a function that accepts a tuple of numbers and returns a new tuple with only even numbers.
+
+
+# tup = (1,2,3,4,5,6)
+# even_tuple = []
+
+# for i in range(len(tup)):
+#     print(tup[i])
+#     if tup[i] % 2 == 0:
+#         even_tuple.append(tup[i])
+
+# print(tuple(even_tuple))
+
+
+# Input name and age of 3 students and store in a tuple list like:
+# [("Ali", 20), ("Sara", 22), ("Hamza", 21)]
+
+# name_and_age = []
+
+# for i in range(3):
+#     name = input("Enter a name ")
+#     age = int(input("Enter a age "))
+
+#     a = (name,age)
+#     name_and_age.append(a)
+
+# print(name_and_age)
+
+
+
+# Union
+
+# Intersection
+
+# Difference (A - B)
+
+# A = {1, 2, 3, 4}
+# B = {3, 4, 5, 6}
+# c = A.union(B)
+# print(c)
+# d = A.intersection(B)
+# print(d)
+# f = A.difference(B)
+# print(f)
+
+# From a list with duplicates, convert to set to remove duplicates.
+# li = [1,1,2,2,3,4,4,3,5,6,5,4]
+# remove_dublicate = set(li)
+# print(remove_dublicate)
