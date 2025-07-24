@@ -110,13 +110,21 @@
 
 
 # Function to find second largest element in list
-li = [6,4,5]
-largest = 0
-second_largest = 0
-for i in li:
-    if i > largest:
-        second_largest = largest
-        largest = i
+li = [0,6,4,5]
+def second_larg(li):
+    largest = float('-inf')
+    second_largest = float('-inf')
+    for i in li:
+        if i > largest:
+            second_largest = largest
+            largest = i
+            # print("if")
+            
+        elif i > second_largest and i != largest:
+            second_largest = i
+            # print("elif")
+    return largest,second_largest
+        
 
-print(largest)
-print(second_largest)
+print(second_larg(li))
+
