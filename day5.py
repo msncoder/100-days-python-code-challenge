@@ -112,3 +112,26 @@
 #     print(kwargs)
 
 # kwargs_function(name="saad", age=15, clas="10th")
+
+
+#  Factorial using recursion
+
+# def Recurion_Fact(n):
+#     if n == 0 or n == 1:
+#         return 1
+
+#     return n * Recurion_Fact(n-1)
+
+# print(Recurion_Fact(8))
+
+
+# Recursive Function for Fibonacci (Simple Version)
+
+# def fibonacci(n):
+#     if n == 1 or n == 0:
+#         return 1
+    
+#     return fibonacci(n-1) + fibonacci(n-2)
+
+# for i in range(10):
+#     print(fibonacci(i), end=" ")
