@@ -110,21 +110,49 @@
 
 
 # Function to find second largest element in list
-li = [0,6,4,5]
-def second_larg(li):
-    largest = float('-inf')
-    second_largest = float('-inf')
-    for i in li:
-        if i > largest:
-            second_largest = largest
-            largest = i
-            # print("if")
+# li = [0,6,4,5]
+# def second_larg(li):
+#     largest = float('-inf')
+#     second_largest = float('-inf')
+#     for i in li:
+#         if i > largest:
+#             second_largest = largest
+#             largest = i
+#             # print("if")
             
-        elif i > second_largest and i != largest:
-            second_largest = i
-            # print("elif")
-    return largest,second_largest
+#         elif i > second_largest and i != largest:
+#             second_largest = i
+#             # print("elif")
+#     return largest,second_largest
         
 
-print(second_larg(li))
+# print(second_larg(li))
 
+# Write a function that merges 2 lists and sorts the result
+
+# a = [1,2,3,4]
+# b = [7,8,5]
+
+# def mergeList(a,b):
+#     c = a + b
+#     d = len(c)
+#     for i in range(d):
+#         for j in range(0,d-i-1):
+#             if c[j] > c[j+1]:
+#                 c[j],c[j+1] = c[j+1],c[j] 
+
+#     return c
+
+# print(mergeList(a,b))
+
+# Return a list of squares for each number in input list
+
+# a = [1,2,3,4]
+
+# def sqaure_of_list(a):
+#     b = []
+#     for i in a:
+#         b.append(i*2)
+#     return b
+
+# print(sqaure_of_list(a))
